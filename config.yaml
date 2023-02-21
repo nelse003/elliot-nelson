@@ -1,0 +1,32 @@
+baseURL: https://nelse003.github.io/elliot-nelson
+title: Elliot Nelson
+theme: PaperMod
+publishDir: docs
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: About Me
+                  url: about
+                  weight: 5
+                - name: Blog
+                  url: blog 
+
+params:
+    homeInfoParams:
+        Title: "Making Science work at a Synchrotron"
+        Content: >
+            I'm Elliot Nelson! I currently work at Diamond Light Source, 
+            where I keep scientific equipment working and availiable 
+            to a scientific user community. 
+            I like the interface between code, people and equipment.
+            The blog covers things I'm learning along the way. 
+
+
